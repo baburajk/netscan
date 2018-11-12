@@ -1,0 +1,38 @@
++++++++++++++++++++++++++++++++++++
+
+This is a simple personal project in works, the abstract plan is to consolidate all the  networking and security scanning tools in just one script as a python package and over a period of time keep adding anything new and interesting to be used and probably having a working version push the same to as a docker container for it's ease of use.
+
+Tools to consolidate (initial draft)
+-------------------------
+fabric
+netaddr
+traceroute
+nmap
+netcat
+mtr
+hping3
+mabo (BGP)
+curl
+wget
+SlowHTTPTest
+FunkLoad
+ipv6-toolkit
+t50
+thc-ipv6
+thc-ssl-dos
+hulk
+prometheous
+slowloris
+ncrack
+nscd
+dstat
+netaddr
+dig
+nslookup
+nginx
+
+Abstract Methods:
+python3 netscan --action=scan|build --range (cidr) --file (inputfile) --cidr(subnet) --type(ipv6|ipv4) --verbose(level=1|2|3)
+
+#Build inventory of live systems against the custom port
+
